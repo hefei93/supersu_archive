@@ -14,9 +14,8 @@ The ZIP-files include few binary files (<code>su</code>), an installation code o
 <hr/>
 
 <a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.46.zip">SuperSU-v2.46.zip</a>  
-this is old one, by good.  
-well supported on old phones such as Samsung Galaxy S3/S4 with Android version 4.4.2-5.0.1  
-(it hasn't even introduced the 'systemless' feature yet..).  
+this is old one, but well-supported.  
+it hasn't even introduced the 'systemless' feature yet...  
 
 <hr/>
 
