@@ -1,30 +1,38 @@
-# supersu_archive<br/>
-a collection of hard to find zip of supersu, to flash with custom-recovery, including my own modification of not using systemless feature (an internal boot.img patch and so on..) but use a regular system modifer even if you do have Android 6+ (dubed "nosystemless")<br/>
-<br/>
-<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.46.zip">SuperSU-v2.46.zip</a><br/>
-Good <code>SuperSU-v2.46.zip</code> a.k.a. <code>UPDATE-SuperSU-v2.46.zip</a> will work on most phones,<br/>
-made back in the time there was not even the systemless concept. Use it for whatever reason you'll do,<br/>
-it will probably work on custom firmwares too.<br/>
-<br/>
-<hr/>
-<br/>
+<h1>SuperSU Archive</h1>
 
-<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.78.zip" title="SuperSU-v2.78.zip">SuperSU-v2.78.zip</a><br/>
-<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.78-nosystemless.zip" title="SuperSU-v2.78-nosystemless.zip">SuperSU-v2.78-nosystemless.zip</a><br/>
-<br/>
-<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.79-201612051815.zip" title="SuperSU-v2.79-201612051815.zip">SuperSU-v2.79-201612051815.zip</a><br/>
-<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.79-201612051815-nosystemless.zip" title="SuperSU-v2.79-201612051815-nosystemless.zip">SuperSU-v2.79-201612051815-nosystemless.zip</a><br/>
-<br/>
-<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.79-SR3-20170114223742.zip" title="SuperSU-v2.79-SR3-20170114223742.zip">SuperSU-v2.79-SR3-20170114223742.zip</a><br/>
-<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.79-SR3-20170114223742-nosystemless.zip" title="SuperSU-v2.79-SR3-20170114223742-nosystemless.zip">SuperSU-v2.79-SR3-20170114223742-nosystemless.zip</a><br/>
-<br/>
-<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.82-SR5-20171001224502.zip" title="SuperSU-v2.82-SR5-20171001224502.zip">SuperSU-v2.82-SR5-20171001224502.zip</a><br/>
-<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.82-SR5-20171001224502-nosystemless.zip" title="SuperSU-v2.82-SR5-20171001224502-nosystemless.zip">SuperSU-v2.82-SR5-20171001224502-nosystemless.zip</a><br/>
+a collection of hard to find zip of supersu.  
+including my own modification of <strong>forcing to NOT use the 'systemless' feature, regardless of whatever Android version you install it on (by default SuperSU will automatically use the 'systemless' feature on Android OS version 6.0 or newer).  
 
 <hr/>
 
-Everything is signed (and aligned),<br/>
-the ones without the <code>-nosystemless</code> are the original zips.<br/>
-the ones with, are signed and aligned by me.<br/>
+If you are using a custom-ROM, such as lineageOS, you don't need SuperSU (it will break things), just enable super-user in the developers-settings (for both ADB and apps).
 
-So even old custom recovery should handle those fine (although in most custom-recovery signature is being ignored..).
+<hr/>
+
+The ZIP-files include few binary files (<code>su</code>), an installation code of a daemon/service which runs every boot, the SuperSU managing apk which is installed as a system-app, and an shell-script (in a dummy Edify format - <code>updater-script</code>, <code>updater-script</code>) to use initialize the entire installation process.
+
+<hr/>
+
+<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.46.zip">SuperSU-v2.46.zip</a>  
+this is old one, by good.  
+well supported on old phones such as Samsung Galaxy S3/S4 with Android version 4.4.2-5.0.1  
+(it hasn't even introduced the 'systemless' feature yet..).  
+
+<hr/>
+
+<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.78.zip" title="SuperSU-v2.78.zip">SuperSU-v2.78.zip</a>  
+
+<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.78-nosystemless.zip" title="SuperSU-v2.78-nosystemless.zip">SuperSU-v2.78-nosystemless.zip</a>  
+
+<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.79-201612051815.zip" title="SuperSU-v2.79-201612051815.zip">SuperSU-v2.79-201612051815.zip</a>  
+
+<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.79-201612051815-nosystemless.zip" title="SuperSU-v2.79-201612051815-nosystemless.zip">SuperSU-v2.79-201612051815-nosystemless.zip</a>  
+
+<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.79-SR3-20170114223742.zip" title="SuperSU-v2.79-SR3-20170114223742.zip">SuperSU-v2.79-SR3-20170114223742.zip</a>  
+
+<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.79-SR3-20170114223742-nosystemless.zip" title="SuperSU-v2.79-SR3-20170114223742-nosystemless.zip">SuperSU-v2.79-SR3-20170114223742-nosystemless.zip</a>  
+
+<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.82-SR5-20171001224502.zip" title="SuperSU-v2.82-SR5-20171001224502.zip">SuperSU-v2.82-SR5-20171001224502.zip</a>  
+
+<a href="https://raw.githubusercontent.com/eladkarako/supersu_archive/master/SuperSU-v2.82-SR5-20171001224502-nosystemless.zip" title="SuperSU-v2.82-SR5-20171001224502-nosystemless.zip">SuperSU-v2.82-SR5-20171001224502-nosystemless.zip</a>  
+
