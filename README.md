@@ -1,7 +1,7 @@
 <h1>SuperSU Archive</h1>
 
 a collection of hard to find zip of SuperSU (no longer maintained),  
-including my own modification of <strong>forcing to NOT use the 'systemless' feature, regardless of whatever Android version you install it on (by default SuperSU will automatically use the 'systemless' feature on Android OS version 6.0 or newer).  
+including my own modification of <strong>forcing to NOT use the 'systemless' feature</strong>, regardless of whatever Android version you install it on (by default SuperSU will automatically use the 'systemless' feature on Android OS version 6.0 or newer).  
 
 Original ZIP-files are signed by Chainfire who is the original developer. The 'nosystemless'-modified ZIP-files are signed by me.
 
